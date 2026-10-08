@@ -1,0 +1,35 @@
+{
+  "best_model": "Polynomial Ridge",
+  "cv_mae": {
+    "Mean Baseline": 0.6826,
+    "Linear Regression": 0.4035,
+    "Polynomial Ridge": 0.2633,
+    "Random Forest": 0.3472,
+    "HistGradientBoosting": 0.3049
+  },
+  "test": {
+    "mae": 0.26862929552487236,
+    "rmse": 0.3293829022844557,
+    "r2": 0.8634895753165506
+  },
+  "feature_importance": {
+    "nitrogen_kg_ha": 0.40968098384450025,
+    "rainfall_mm": 0.3390154633679231,
+    "avg_temp_c": 0.32302881844716624,
+    "irrigation": 0.2397873478864016,
+    "sunlight_hours": 0.12250883819819058,
+    "soil_ph": 0.08284155640509694,
+    "organic_carbon_pct": 0.08133094679907596,
+    "farm_size_ha": -0.0002276354233818223
+  },
+  "dataset_profile": {
+    "rainfall_mm": 1189.9,
+    "avg_temp_c": 26.9,
+    "sunlight_hours": 7.0,
+    "soil_ph": 6.51,
+    "organic_carbon_pct": 1.21,
+    "nitrogen_kg_ha": 120.0,
+    "irrigation": 1.0,
+    "farm_size_ha": 10.16
+  }
+}
